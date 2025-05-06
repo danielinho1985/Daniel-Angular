@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "danielTest-angular-app": {
+    "danieltestangularapp": {
       "projectType": "application",
       "schematics": {},
       "root": "",

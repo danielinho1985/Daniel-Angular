@@ -18,4 +18,11 @@ import { SearchFruitComponent } from './search-fruit/search-fruit.component';
   </main>
   `
 })
-export class AppComponent {}
+
+export class AppComponent {
+  title = 'danieltestangularapp';
+}
+
+
+
+
