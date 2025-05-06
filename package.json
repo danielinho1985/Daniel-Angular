@@ -5,11 +5,18 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:ssr": "ng build && ng run daniel-test-angular-app:server:production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:danielTest-angular-app": "node dist/daniel-test-angular-app/server/server.mjs"
+    "serve:ssr": "node dist/daniel-test-angular-app/server/server.mjs",
+    "render-build": "npm install && npm run build:ssr"
   },
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "dependencies": {
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
