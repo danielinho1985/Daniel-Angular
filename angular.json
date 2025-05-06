@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/daniel-test-angular-app",
+            "outputPath": "dist/danieltestangularapp",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "daniel-test-angular-app:build:production"
+              "buildTarget": "danieltestangularapp:build:production"
             },
             "development": {
-              "buildTarget": "daniel-test-angular-app:build:development"
+              "buildTarget": "danieltestangularapp:build:development"
             }
           },
           "defaultConfiguration": "development"

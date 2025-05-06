@@ -1,14 +1,14 @@
 {
-  "name": "daniel-test-angular-app",
+  "name": "danieltestangularapp",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:ssr": "ng build && ng run daniel-test-angular-app:server:production",
+    "build:ssr": "ng build && ng run danieltestangularapp:server:production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr": "node dist/daniel-test-angular-app/server/server.mjs",
+    "serve:ssr": "node dist/danieltestangularapp/server/server.mjs",
     "render-build": "npm install && npm run build:ssr"
   },
   "private": true,
