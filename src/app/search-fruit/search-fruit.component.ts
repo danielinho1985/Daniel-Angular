@@ -48,7 +48,7 @@ export class SearchFruitComponent {
   constructor(private http: HttpClient) {}
 
   searchFruit() {
-    const url = `https://localhost:7203/Fruit?FruitName=${this.query}`;
+    const url = `https://daniel-1.onrender.com/Fruit?FruitName=${this.query}`;
     this.http.get<Fruit>(url).subscribe({
       next: data => this.result = data,
       error: err => this.result = { error: 'Request failed', details: err }
