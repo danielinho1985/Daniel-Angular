@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule,RouterModule],
   template: `
     <header class="header">
-      <div class="logo">🍆 Fruteria La Michoacana 🍆</div>
+      <div class="logo">Fruteria 🍑 🥝 🍉 🥥 🍋 🍐 🍋‍🟩</div>
       <nav class="menu">
   <a routerLink="/" routerLinkActive="active" class="menu-item">Home</a>
   <a routerLink="/about" routerLinkActive="active" class="menu-item">About</a>

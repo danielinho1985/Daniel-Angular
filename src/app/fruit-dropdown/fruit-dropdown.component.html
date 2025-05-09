@@ -1,0 +1,18 @@
+<div class="fruit-dropdown-container">
+    <h2>Select a Fruit</h2>
+    
+    <select 
+      [(ngModel)]="selectedFruit" 
+      (change)="onFruitSelected()"
+      class="fruit-select"
+    >
+      <option value="" disabled selected>Choose a fruit</option>
+      <option *ngFor="let fruit of fruits" [value]="fruit">
+        {{ fruit }}
+      </option>
+    </select>
+    
+    <div *ngIf="selectedFruit" class="selected-fruit">
+      You selected: <strong>{{ selectedFruit }}</strong>
+    </div>
+  </div>
